@@ -11,7 +11,7 @@ Replace `your_kernel_version` with e.g. `4.0.9-aufs`.
 ```
 # ./make-initramfs.sh your_kernel_version
 ```
-Configure kexec to use the new initramfs
+Configure kexec to use the new initramfs ([Kernel Crash Dumps - Gentoo Wiki](https://wiki.gentoo.org/wiki/Kernel_Crash_Dumps)).
 
 
 When the kernel crashes and kexecs into the new initramfs,
