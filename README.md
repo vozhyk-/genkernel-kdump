@@ -6,6 +6,7 @@ Scripts for creating a simple initramfs for vmcore dumps (using `genkernel`)
 Usage
 -----
 Look into `config.sh` and change the options to your liking.
+
 Replace `your_kernel_version` with e.g. `4.0.9-aufs`.
 ```
 # ./make-initramfs.sh your_kernel_version
@@ -27,7 +28,6 @@ Pass its device to the script, can be anything mount accepts.
 ```
 
 Reboot with Control-Alt-Del
-```
 
 Installation
 ------------
