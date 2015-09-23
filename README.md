@@ -3,6 +3,11 @@ genkernel-kdump
 
 Scripts for creating a simple initramfs for vmcore dumps (using `genkernel`)
 
+Requirements
+------------
+- `sys-kernel/genkernel`
+- `app-arch/lz4`
+
 Usage
 -----
 Look into `config.sh` and change the options to your liking.
